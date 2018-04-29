@@ -1,0 +1,436 @@
+/* Geral */
+
+/*#region Navegação *//*#endregion*/
+
+*{
+font-family: 'Asap', sans-serif;
+/* font-family: 'Flamenco', cursive; */
+} 
+
+body{
+margin:0;
+}
+
+h1 {
+margin: 0;
+font-weight: 200;
+text-transform: uppercase; 
+font-family: 'Flamenco', cursive;
+text-transform: uppercase;
+font-size: 33px;
+line-height: 56px;
+color: #fff;
+
+}
+
+h2{
+font-family: 'Flamenco', cursive;
+margin: 0;
+padding-bottom: 15px;
+font-size: 32px;
+font-weight: 4600;
+text-align: center;
+line-height: 56px;
+}
+ 
+ h3{
+margin: 0;
+font-family: 'Asap', Arial, sans-serif;
+text-align: center;
+font-weight: 800;
+font-size: 28px;
+line-height: 48px;
+color: #fff;
+}
+
+
+p {
+margin: 0;
+font-size: 18px;
+line-height: 30px;
+color: #4a4a4a;
+margin-bottom: 50px;
+}
+
+
+/* Navegação  */
+
+
+.topbar ul li{
+    display: inline;
+ }
+ 
+nav.topbar{
+background-color: rgba(0,0,0,.2);
+display: flex;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+position: fixed;
+top: 0;
+}
+ 
+
+.topbar li{
+display: inline;
+padding: 0 20px;
+
+}
+ 
+.topbar li a{
+text-decoration: none;
+list-style-type: none;
+text-transform: uppercase; 
+font-family: 'Asap', sans-serif;
+color: #fff;
+font-size: 14px;
+}
+
+
+/* Header */
+@media screen and (max-width: 480px)
+#header {
+    padding: 1.5rem 0;
+}
+
+header {
+background: url(../img/bg-banner.png);
+background-size: cover;
+min-height: 100vh;  
+text-align: center;
+display: flex;
+justify-content: space-around;
+align-items: center; 
+}
+
+header div{
+    max-width: 52%;
+ }
+
+
+
+.botao {
+font-family: 'Asap', sans-serif;
+font-weight: 600;
+background-color: #fedd6a;
+color: #8c7744;
+padding: 15px 40px;
+text-decoration: none;
+border-radius: 4px;
+text-transform: uppercase;
+font-size: 20px;
+} 
+
+.botao:hover {
+background-color: black;
+color: rgb(248, 237, 155);
+transition: 1s color;
+text-align: center;
+}
+
+
+/* Sobre */
+
+.sobre > div{
+display: flex;
+justify-content: center;
+align-items:  center;
+padding: 50px 0 80px 0;
+}
+
+.desc-sobre{
+max-width: 40%;
+margin-left: 30px;
+margin-top: 40px;
+}
+
+.desc-sobre > h2 {
+text-align: left;
+}
+
+/* Passo-a-Passo */
+
+.passo-a-passo{
+text-align: center;
+}
+
+.about{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 50px 0 80px 0;
+
+}
+
+.about div{
+width: 300px;
+padding: 0 40px; 
+text-align: center;
+}
+
+
+
+ /* Section Servicos */
+
+.cards {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+.cards div{
+max-width:23%;
+background-color: #2bc1d1;
+padding: 20px 60px;
+margin: 0 30px;
+border-radius: 4px;
+min-height: 450px;
+text-align: center;
+color: white;
+}
+
+.cards img{
+width: 50%;
+}
+
+    
+/* Curiosidades */
+
+.curiosidade {
+    font-family: 'Flamenco', cursive;
+    background: url(../img/bg-numeros.png);
+    background-size: cover;
+    margin-top: 45px;
+ }
+
+ .curiosidade p, .curiosidade h2{
+     color: #fff;
+ }
+
+ .crd-txt {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+ }
+
+ .crd-txt div{
+     width: 200px;
+     padding: 0 50px;
+     text-align: center;
+     
+ }
+
+ .markup{
+    font-family: 'Asap', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 80px;
+    color: #fedd6a;
+ }
+
+
+
+
+/* Contato + SEÇÃO FORM   */
+
+.contato{
+background-color: #f3f3f3;
+margin-top: 35px;
+}
+
+.formulario {
+display: flex;
+justify-content: center;
+}
+
+.formulario div{
+width: 380px;
+}
+
+form {
+margin: 0;
+font-family: 'Asap', Arial, sans-serif;
+font-size: 14px;
+line-height: 22px;
+color: #4a4a4a;
+}
+
+
+.formulario form input, textarea{
+margin: 0;
+padding: 5px 0;
+font-family: 'Asap', Arial, sans-serif;
+font-size: 14px;
+line-height: 1.5em;
+background: #ffe9af;
+border: 0;
+resize: none;
+}
+
+
+form div label,input,.btn-form {
+display: block;
+width: 100%;
+margin-top: 20px;
+}
+
+.one-row{
+display: flex;
+justify-content: space-between;
+}
+
+.one-row div{
+   width: 46%;
+
+}
+
+.btn-form {
+   font-family: 'Asap', sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   text-align: center;
+   background-color: #339192;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 1px;
+}
+
+/*  Newsletter  */
+
+.newsletter {
+background-color: #fedd6a;
+width: 100%;
+height: 252px;
+}
+
+.newsletter p{  
+font-family: 'Flamenco', cursive;
+font-weight: 590;
+font-size: 46px;
+line-height: 1.5em;
+text-align: center;
+padding-top: 30px;
+
+}
+
+.form-news{
+display: flex;
+justify-content: center;
+}
+
+.form-news div{
+width: 700px;
+display: flex;
+justify-content: space-between;
+}
+
+.form-news form input{
+margin: 0;
+padding: 5px 0;
+font-family: 'Asap', Arial, sans-serif;
+font-size: 16px;
+line-height: 22px;
+border: 0;
+}
+
+
+
+.btn-news{
+font-family: 'Asap', sans-serif;
+font-size: 20px;
+font-weight: 200;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+background-color: #c1392c;
+padding-top: 10px; 
+padding-bottom: 10px; 
+border-radius: 2px;
+margin-left: 20px; 
+width: 70%;
+}
+
+
+/*  Footrer   */
+
+.brandfooter{
+background-color:grey;
+width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-around;
+}
+
+
+
+
+
+/* Seção Footer */
+
+.footer {
+    background-color: #333333;
+    height: 100%;
+    padding-top: 40px;
+    
+}
+
+.footer ul li {
+    text-align: left;
+    list-style-type: none;
+
+}
+
+.footer li a {
+    font-family: 'Flamenco', cursive;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #fff;
+    font-size: 14px;
+}
+
+ 
+.footer p{
+font-size: 16px;
+color: #fff;
+}
+
+
+.navegador{
+display: flex;
+justify-content: center;
+}
+
+
+.navegador div{
+width: 200px;
+margin-right: 60px;
+text-align: center;
+}
+
+
+.social-media{
+display: flex;
+justify-content: center;
+}
+
+.social-media img{
+padding: 0 10px;
+}
+
+.contato-email {
+text-decoration: none; 
+color: #fff;
+font-family: 'Asap', sans-serif;
+font-size: 11px;
+}
+
+.copyright{
+text-align: center;
+padding-bottom: 30px;
+}
+
+/* </the end> */

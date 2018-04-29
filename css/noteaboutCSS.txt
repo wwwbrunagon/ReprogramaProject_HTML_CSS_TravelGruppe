@@ -1,0 +1,21 @@
+vHEADER
+Cor botão: #fedd6a
+Fonte botão: #8c7744
+
+SERVIÇOS
+Cor box serviços: #2bc1d1
+
+VOCE SABIA
+Cor fonte especial: #fedd6a
+
+CONTATO
+Cor form input: #ffe9af
+Cor form input border: #e8cf8e
+Cor form submit: #339192
+
+NEWSLETTER
+Cor fundo: #fedd6a
+Cor botão: #c1392c
+
+FOOTER
+Cor fundo: #333333

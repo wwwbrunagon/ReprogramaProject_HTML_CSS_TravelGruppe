@@ -1,0 +1,259 @@
+/* Geral */
+
+
+*{
+font-family: 'Asap', sans-serif;
+font-family: 'Flamenco', cursive;
+}
+
+body{
+margin:0;
+}
+
+h1 {
+font-family: 'Asap', sans-serif;
+color: aliceblue;
+text-align: center;
+margin-bottom: 33px;
+}
+
+h2 {
+font-family: 'Asap', sans-serif;
+text-align: center;
+}
+
+.titulo2 > h2 {
+font-family: 'Asap', sans-serif;
+text-align: center;
+margin: 52px 0px 52px 0px;
+}
+
+p{
+    font-size: 22px;
+  }
+
+
+/* Navegação */
+
+nav  ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+width: 600px;
+}
+
+    
+nav  a {
+text-decoration: none;
+color:white;       
+}
+
+
+.topbar ul li{
+display: inline;
+}
+
+
+
+nav.topbar{
+display: flex;
+justify-content: space-around;
+align-items: center;
+position:fixed;
+top: 0;
+width: 100%;
+background-color: black;    
+}
+
+ul li {
+text-decoration: none;
+color:white;  
+}
+
+
+
+
+/* Header */
+
+header {
+
+background: url(../img/bg-banner.png);
+background-size: cover;
+min-height: 100vh;  
+text-align: center;
+display: flex;
+justify-content: space-around;
+align-items: center; 
+}
+
+
+.botao {
+background-color: white;
+color: black;
+padding: 10px 30px;
+text-decoration: none;
+text-align: center;
+transition: 5s color;
+} 
+
+.botao:hover {
+background-color: black;
+color: white;
+transition: 1s color;
+text-align: center;
+}
+
+
+.intro {
+color:white;
+margin-bottom: 66px;
+text-align: center;
+width: 420px;
+padding: 0px 0px 0px 100px;
+}
+
+/* Sobre */
+
+.sobre > div{
+display: flex;
+justify-content: center;
+align-items:  center;
+padding: 50px 0 80px 0;
+}
+
+.desc-sobre{
+max-width: 40%;
+margin-left: 30px;
+margin-top: 40px;
+}
+
+.desc-sobre > h2 {
+text-align: left;
+}
+
+/* Passo-a-Passo */
+
+.passo-a-passo{
+text-align: center;
+}
+
+.about{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 50px 0 80px 0;
+
+}
+
+.about div{
+width: 300px;
+padding: 0 40px; 
+text-align: center;
+}
+
+
+
+ /* Section Servicos */
+
+
+.cards {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+.cards div{
+max-width:23%;
+background-color: #2bc1d1;
+padding: 20px 60px;
+margin: 0 30px;
+border-radius: 4px;
+min-height: 450px;
+text-align: center;
+color: white;
+    }
+
+      
+/* Curiosidades */
+
+.curiosidades{
+background: url(../img/bg-numeros.png);
+background-size: 100%;
+background-repeat: no-repeat;
+text-align: center;
+display: flex;
+justify-content: center;
+ 
+}
+
+
+.curiosidades div {
+color: white;
+width: 300px;
+padding:0px 30px 52px 30px;
+}
+
+.curiosidades div > p{
+    margin-top: 20px;
+}
+
+.forte {
+font-family: 'Asap', sans-serif;
+font-size: 60px;
+margin-bottom: 0;
+}
+
+.titulo2   p{
+    margin-bottom: 20px;
+}
+
+
+/* Contato + SEÇÃO FORM   */
+
+.txtpreto {
+color: black;
+
+} 
+
+
+.contato {
+width: 700px;
+margin: 0 auto;
+margin-top: 52px;
+   }
+.contato tr > td > input{
+    background-color: rgba(247, 247, 8, 0.459); 
+}
+
+form div{
+display: flex; 
+justify-content: space-between;
+align-items: center;
+max-width: 100vh;
+padding: 10px 72px 10px 33px; 
+margin: 0px 33px 0px 100px;
+
+}
+
+.assunto{
+display: flex;
+justify-content: flex-start;
+}
+
+
+.comentario td >  input {
+height:200px;
+padding-bottom: 180px;
+}
+   
+.enviar tr > td > input {
+display: flex;
+justify-content: center;
+margin: 0px 0px 0px 290px; 
+width: 250px;
+height: 35px;
+background-color: rgb(32, 90, 165);
+}
+
+/*  Newsletter   */
